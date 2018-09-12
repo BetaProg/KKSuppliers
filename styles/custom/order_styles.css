@@ -1,0 +1,317 @@
+@import url('https://fonts.googleapis.com/css?family=Lato');
+@import url('https://fonts.googleapis.com/css?family=Josefin Sans');
+
+body{
+	height:100%;
+	width:100%;
+	margin:0px;
+	padding:0px;
+	!background-color: #f2f2f2;
+	background-color: #fff;
+	!background-color:#3498db;
+	!background-color:#e74c3c;
+	font-family:Lato;
+	!background-image: url('../../images/blue_gradient.jpeg');
+	background-position: 50% 50%;
+	!overflow:hidden;
+}
+.land_main{
+	height:100%;
+	width:100%;
+	overflow:auto;
+}
+.land_inner{
+	height: 80%;
+	width:100%;
+	margin-top:10%;
+}
+.land_inner .title_section {
+	height: 10%;
+	width: 100%;
+	text-align:center;
+}
+.land_inner .title_section h5{
+	!font-family: Calibri;
+	font-family:Lato;
+	!color:#fff;
+}
+.land_inner .type_selection_section{
+	width:80%;
+	height:80%;
+	!background-color:#fff;
+	margin-left:10%;
+	margin-right:10%;
+}
+.land_inner .type_selection_section .selection_row{
+	padding-top:25%;
+	!color:#fff;
+	
+}
+.selection_row h5 {
+	text-align:center;
+	padding-top:5%;
+	font-size: 20px;
+	!font-weight:bolder;
+}
+.selection_row .offline_selection{
+	padding-bottom:10%;
+}
+.selection_row .online_selection {
+	display:none;
+	background-color:lightgrey;
+	padding-top:5%;
+	padding-bottom:0%;
+}
+.selection_row .offline_selection img, .selection_row .online_selection img{
+	height:auto;
+	width:25%;
+}
+
+/* ---------------------------------  Offline Order ----------------------------*/
+.offline_main {
+	height:100%;
+	width:90%;
+	margin:5%;
+	background-color:#fff;
+	!border: 1px solid #000;
+}
+.offline_main .offline_title{
+	color:#fff;
+	padding-top:5%;
+	padding-bottom:5%;
+	text-align:center;
+	background-color:#e74c3c;
+}
+.offline_main .offline_title h5{
+	!font-weight:bold;
+	font-size: 20px;
+}
+.chose_material{
+	margin:10%;
+}
+.chose_material p{
+	margin-bottom:15%;
+	!border: 1px solid #ddd;
+}
+.navigate_hr {
+	border-top: 1px solid #ddd;
+	width:90%;
+}
+.navigate_button {
+	float:right;
+	margin-right:5%;
+}	
+.navigate_button i{
+	background-color:#e74c3c;
+	border-radius:50%;
+	color: #fff;
+	font-size:25px;
+	padding-top:5%;
+	padding-left:5%;
+	padding-right:5%;
+	padding-bottom:5%;
+}
+.chose_material label{
+	color:#000;
+}
+
+/* ---------------------------------  Offline Order ----------------------------*/
+
+/* ---------------------------------  Order Quantity Selection ----------------------------*/
+.quantity_selection {
+	height:100%;
+	!width:100%;
+	width:auto;
+	background-color:#fff;
+}
+.chose_quantity{
+	margin:10%;
+}
+.pre_filled_quantity .s4{
+	margin-left:5px;
+	margin-right:5px;
+}
+.pre_filled_quantity .s4 a{
+	padding-left:10px;
+	padding-right:10px;
+	margin:15px;
+}
+
+/* ---------------------------------  Order Quantity Selection ----------------------------*/
+/* ---------------------------------  Supplier Selection ----------------------------*/
+
+.supplier_selection .s12{
+	margin:10%;
+}
+.brick_suppliers {
+	display:none;
+}
+
+/* ---------------------------------  Supplier Selection ----------------------------*/
+/* ---------------------------------  Order Review ----------------------------*/
+
+.order_review {
+	!margin:10%;
+}
+.order_details table {
+	margin:10%;
+}
+.order_details table tr td{
+	padding-top:5px;
+	padding-bottom:5px;
+}
+.order_details table tr td h5{
+	font-size:15px;
+}
+.save_order {
+	border-radius:0px;
+}
+
+/* ---------------------------------  Order Review ----------------------------*/
+/* ---------------------------------  Landing Page ----------------------------*/
+
+.main_content{
+	margin-top:15%;
+	!position:absolute;
+}
+
+.extras_content{
+	display:none;
+	width:90%;
+	height:20%;
+	margin:5%;
+	position:absolute;
+	background-color:#e67e22;
+}
+.grid_menu{
+	!margin-top:45%;
+	margin-top:10%;
+}
+
+/* ---------------------------------  Landing Page ----------------------------*/
+/* ---------------------------------  View Orders ----------------------------*/
+.orders_content{
+	width:100%;
+	height:100%;
+}
+.orders_title{
+	width:90%;
+	margin:5%;
+}
+.orders_title h5{
+	font-size:20px;
+}
+.order_count_value{
+	font-weight:bolder;
+	margin-left:2%;
+}
+
+.orders_list{
+	overflow:auto;
+}
+
+.orders_content{
+	!overflow:hidden;
+}
+
+.single_order{
+	border-bottom:1px dotted #bdc3c7;
+	margin:5px 10px 5px 10px;
+	padding-top:5px;
+	background-color:#429bd7;
+	color:#fff;
+	width:95%;
+}
+.orders_table, .suppliers_table{
+	width:90%;
+	margin:5%;
+}
+.single_order .s10{
+	padding-top:2%;
+}
+.single_order p{
+	font-size:14px;
+	!color:#2c3e50;
+	margin-top:2%;
+	color:#ddd;
+}
+
+.material_icons{
+	width:40px;
+	!border:1px solid #ddd;
+	!border-radius: 50%;
+	border-right:1px solid #ddd;
+	padding-right:10px;
+}
+.order_type_selection{
+	text-align:center;
+}
+/* ---------------------------------  View Orders ----------------------------*/
+
+/* ---------------------------------  View Single Order ----------------------------*/
+.order_details_title {
+	width:90%;
+	margin:5%;
+	height:auto;
+	text-align:center;
+}
+.order_details_title h5{
+	font-size:20px;
+	font-weight:bolder;
+}
+
+.supplier_order_progress{
+	width:92%;
+	height:auto;
+	margin:4%;
+	padding-left;2%;
+	background-color:#f2f2f2;
+	!position:fixed;
+}
+.supplier_progress_title h5{
+	font-size:15px;
+	margin:4px auto 2px 10px;
+	padding-top:5%;
+}
+.supplier_progress_title .row{
+	 margin-bottom:0px;
+}
+.supplier_progress_title .row .s6 p{
+	margin-top:8px;
+	margin-bottom:4px;
+}
+.supplier_order_progress .row {
+	padding-left:3%;
+}
+.supplier_order_progress .s3, .supplier_order_progress .s12{
+	padding:0px;
+}
+.supplier_order_progress label{
+	font-size:10px;
+	color:#000;
+	padding-left:25px;
+	padding-right:5px;
+}
+.supplier_order_progress hr{
+	margin:4px;
+}
+.checkbox-yellow[type="checkbox"].filled-in:checked + label:after{
+     border: 2px solid #f1c40f;
+     background-color: #f1c40f;
+}
+.checkbox-orange[type="checkbox"].filled-in:checked + label:after{
+     border: 2px solid #e67e22;
+     background-color: #e67e22;
+}
+.checkbox-blue[type="checkbox"].filled-in:checked + label:after{
+     border: 2px solid #2980b9;
+     background-color: #2980b9;
+}
+.checkbox-green[type="checkbox"].filled-in:checked + label:after{
+     border: 2px solid #27ae60;
+     background-color: #27ae60;
+}
+.checkbox-red[type="checkbox"].filled-in:checked + label:after{
+     border: 2px solid #c0392b;
+     background-color: #c0392b;
+}
